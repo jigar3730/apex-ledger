@@ -8,7 +8,7 @@
   "workspaceFolder": "/workspaces/apex-ledger",
   "shutdownAction": "stopCompose",
   "remoteUser": "node",
-  "postCreateCommand": "corepack enable && corepack prepare pnpm@10.30.2 --activate && pnpm -v && node -v",
+  "postCreateCommand": "corepack prepare pnpm@10.30.2 --activate && corepack pnpm -v && node -v",
   "customizations": {
     "vscode": {
       "extensions": [
