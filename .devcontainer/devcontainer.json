@@ -1,0 +1,22 @@
+{
+  "name": "Apex Ledger (Full Stack)",
+  "dockerComposeFile": [
+    "../infrastructure/compose/docker-compose.yml",
+    "docker-compose.yml"
+  ],
+  "service": "dev",
+  "workspaceFolder": "/workspaces/apex-ledger",
+  "shutdownAction": "stopCompose",
+  "remoteUser": "node",
+  "postCreateCommand": "corepack enable && corepack prepare pnpm@10.30.2 --activate && pnpm -v && node -v",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "prisma.prisma",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  dev:
+    image: node:22-bullseye
+    user: node
+    working_dir: /workspaces/apex-ledger
+    volumes:
+      - ..:/workspaces/apex-ledger:cached
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: sleep infinity
