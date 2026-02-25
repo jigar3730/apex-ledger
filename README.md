@@ -84,3 +84,9 @@ pnpm --filter ./apps/web dev --host 0.0.0.0 --port 5173
 
 Active development.
 
+# Work Logs
+
+Chronological development logs for Apex Ledger.
+
+- 2026-02-25 – DevContainer stabilization
+- 2026-02-26 – React scaffold + workspace structure
