@@ -1,0 +1,11 @@
+{
+  "name": "apex-ledger",
+  "version": "1.0.0",
+  "description": "Apex Ledger monorepo root",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.30.2",
+  "private": true
+}
